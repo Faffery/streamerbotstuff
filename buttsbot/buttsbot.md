@@ -10,3 +10,6 @@ There are 3 things in this import:
 You can change the word "butts" to something else in the **Execute Code** sub-action in the **buttsbot action**. Remember to leave the double quotes (") in place!
 
 The **enable buttsbot timer** is set to 3 seconds for testing purposes. You should change it to something longer when you actually want to use it, otherwise almost every message will have butts inserted! In case you're not familiar with Streamer.bot timers, you can find them in Streamer.bot under **Settings > Timed Actions** as of Streamer.bot 0.2.3.
+
+# Flavour text
+I made this because buttsbot went down due to the new Twitch API limitations for IRC bots and my friends ttv/tai_time and ttv/haseodanette were sad.
