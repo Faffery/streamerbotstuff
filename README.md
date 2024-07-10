@@ -1,5 +1,6 @@
 # Faff's Streamer.bot stuff
-Hello it's me Faffery from Sunny Singapore! I like Streamer.bot so here's a bunch of actions you can use. Come say hi on Twitch some time if you like them!
+Hello it's me Faffery from Sunny Singapore! I use Streamer.bot for a lot of stuff on stream, so here's a bunch of actions you can use on your own stream. Come say hi on Twitch some time if you like them!
+Get Streamer.bot > https://streamer.bot/
 
 # How to import something into Streamer.bot
 1. Copy the import string from one of the files in this repo
