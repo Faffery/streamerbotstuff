@@ -5,16 +5,16 @@
 There are 5 actions, 4 commands, and 1 queue in this import:
 ## Actions
 1. **Queue System code** - Contains all the code that runs the queue system.
-2. **Reset Queue** - Resets the queue system variables. Run this when you want to clear the queue or before the first time you use the queue system. If the queue limit has not been set, it defaults to 3 (makes sense for 4-player games).
+2. **Reset Queue** - Resets the queue system variables. Run this when you want to clear the queue or before the first time you use the queue system. If the queue pull limit has not been set, it defaults to 3 (makes sense for 4-player games).
 3. **Queue Up** - Enters the current user into the queue. Users cannot queue up twice, a message will be displayed if they try to do this.
 4. **Get from queue** - Gets a number of people from the queue. You must enter a number after !gq, e.g. !gq 4. Users are not allowed to pull more than the limit you set with **!qlimit**.
 5. **Set queue pull limit** - Sets the max number of people a user can pull from the queue.
 
 ## Commands
-1. **!rq** - Resets the queue system variables. Run this when you want to clear the queue or before the first time you use the queue system. *Broadcaster only by default.*
-2. **!q** - Enters the current user into the queue. Users cannot queue up twice, a message will be displayed if they try to do this.
-3. **!gq** - Gets a number of people from the queue. You must enter a number after !gq, e.g. !gq 4. Users are not allowed to pull more than the limit you set with **!qlimit**. *User cooldown set to 5 minutes by default.*
-4. **!qlimit** - Set the max number of people a user can pull from the queue. *Broadcaster only by default.*
+1. **!rq** - Runs the **Reset Queue** action. *Broadcaster only by default.*
+2. **!q** - Runs the **Queue Up** action.
+3. **!gq** - Runs the **Get from queue** action. *User cooldown set to 5 minutes by default.*
+4. **!qlimit** - Runs the **Set queue pull limit** action. *Broadcaster only by default.*
 
 ## Queue
 The Queue System queue just ensures the commands are run sequentially to avoid a race condition. All triggered actions are assigned to this queue.
